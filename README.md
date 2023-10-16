@@ -60,3 +60,6 @@ Sinta-se à vontade para explorar as funcionalidades e utilizar as opções disp
 Para construção desse desafio foi utilizado.
 - Node version: 18.18.2
 - npm (Packager Manager)
+
+  ## Video para Demonstração
+- https://youtu.be/eryTok2A0No
