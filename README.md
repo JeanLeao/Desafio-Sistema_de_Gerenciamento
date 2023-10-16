@@ -40,14 +40,14 @@ Para iniciar o projeto do zero, sem nenhum dado pré-cadastrado, siga os seguint
 Apague o arquivo 'development.db' localizado na raiz do projeto.
 Execute os seguintes comandos no terminal:
 
-npm install
-npm run db:migrate
-npm run start
+- npm install
+- npm run db:migrate
+- npm run start
 
 Para iniciar o projeto com os dados de exemplo pré-cadastrados, basta executar os seguintes comandos no terminal:
 
-npm install
-npm run start
+- npm install
+- npm run start
 
 ## Navegação no Sistema
 
