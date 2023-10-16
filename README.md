@@ -27,9 +27,11 @@ O sistema foi desenvolvido utilizando as seguintes tecnologias:
 
 O sistema já vem com alguns dados de exemplo pré-cadastrados no banco de dados, incluindo:
 
-Materiais: 30 unidades de madeira, 10 unidades de corda e 20 unidades de carvão. É possível cadastrar novos materiais para controle de estoque (Dizendo qual o material, e a quantidade do mesmo).
-Produtos: Escada (requer 5 unidades de madeira e 2 unidades de corda para ser produzida) e Fogueira (requer 5 unidades de madeira e 5 unidades de carvão para ser produzida). É possível cadastrar novos produtos (Dizendo qual o produto, qual o material, quantidade de material necessaria).
-Ordens: Não há nenhuma ordem cadastrada inicialmente. É possível criar novas ordens de produção.
+*Materiais: 30 unidades de madeira, 10 unidades de corda e 20 unidades de carvão. É possível cadastrar novos materiais para controle de estoque (Dizendo qual o material, e a quantidade do mesmo).
+
+*Produtos: Escada (requer 5 unidades de madeira e 2 unidades de corda para ser produzida) e Fogueira (requer 5 unidades de madeira e 5 unidades de carvão para ser produzida). É possível cadastrar novos produtos (Dizendo qual o produto, qual o material, quantidade de material necessaria).
+
+*Ordens: Não há nenhuma ordem cadastrada inicialmente. É possível criar novas ordens de produção.
 
 ## Inicialização do Projeto
 
