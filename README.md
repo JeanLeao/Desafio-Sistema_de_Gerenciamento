@@ -9,13 +9,19 @@ Para isso, o sistema deve ter um banco de dados que armazene informações sobre
 # Informações sobre Tecnicas utilizadas
 O sistema foi desenvolvido utilizando as seguintes tecnologias:
 
-Node.js: Foi utilizado o Node.js na versão LTS 18.18.2 como ambiente de execução do sistema.
-Sequelize: Foi utilizado o Sequelize como ORM (Object-Relational Mapping) para facilitar a interação com o banco de dados. O Sequelize permite definir os modelos de dados e suas relações, além de fornecer métodos para manipulação do banco de dados.
-Migrations: Utilizei o conceito de Migrations para controlar as alterações no banco de dados de forma estruturada. As Migrations permitem criar, modificar e excluir tabelas e campos no banco de dados de forma segura e controlada, muito utilizada em aplicações grande/médio porte.
-SQLite: Utilizamos o SQLite como banco de dados para armazenar os dados do sistema. O SQLite é uma opção leve e fácil de configurar, ideal para projetos menores.
-Tratamento de Erros: Para evitar a repetição de código e tratar erros de forma centralizada, utilizamos o conceito de captura de exceções e rejeições (process.on()) do Node.js. Dessa forma, qualquer exceção ou rejeição não tratada será capturada e tratada de forma adequada, permitindo que o sistema continue em execução sem vazamentos de erros.
-Validações: Para tratar as validações de entrada do usuário, utilizamos blocos de condições com expressões regulares (Regex), entre outros meios. Embora seja uma abordagem mais simples, para um projeto maior seria o mais viável o uso de bibliotecas como o Yup para tratamento de validações mais complexas.
-Limpeza do Console: Para limpar o console a cada pergunta, foi usado o método process.stdout.write('\u001B[2J\u001B[0;0f'). Esse código emite sequências de caracteres especiais que são interpretadas pelo terminal como uma instrução para limpar a tela. Isso ajuda a manter o console limpo e organizado durante a interação com o sistema.
+*Node.js: Foi utilizado o Node.js na versão LTS 18.18.2 como ambiente de execução do sistema.
+
+*Sequelize: Foi utilizado o Sequelize como ORM (Object-Relational Mapping) para facilitar a interação com o banco de dados. O Sequelize permite definir os modelos de dados e suas relações, além de fornecer métodos para manipulação do banco de dados.
+
+*Migrations: Utilizei o conceito de Migrations para controlar as alterações no banco de dados de forma estruturada. As Migrations permitem criar, modificar e excluir tabelas e campos no banco de dados de forma segura e controlada, muito utilizada em aplicações grande/médio porte.
+
+*SQLite: Utilizamos o SQLite como banco de dados para armazenar os dados do sistema. O SQLite é uma opção leve e fácil de configurar, ideal para projetos menores.
+
+*Tratamento de Erros: Para evitar a repetição de código e tratar erros de forma centralizada, utilizamos o conceito de captura de exceções e rejeições (process.on()) do Node.js. Dessa forma, qualquer exceção ou rejeição não tratada será capturada e tratada de forma adequada, permitindo que o sistema continue em execução sem vazamentos de erros.
+
+*Validações: Para tratar as validações de entrada do usuário, utilizamos blocos de condições com expressões regulares (Regex), entre outros meios. Embora seja uma abordagem mais simples, para um projeto maior seria o mais viável o uso de bibliotecas como o Yup para tratamento de validações mais complexas.
+
+*Limpeza do Console: Para limpar o console a cada pergunta, foi usado o método process.stdout.write('\u001B[2J\u001B[0;0f'). Esse código emite sequências de caracteres especiais que são interpretadas pelo terminal como uma instrução para limpar a tela. Isso ajuda a manter o console limpo e organizado durante a interação com o sistema.
 
 ## Funcionalidades
 
